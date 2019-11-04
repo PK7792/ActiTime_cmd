@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="scripts.flipkartTC3">
+        <methods>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- scripts.flipkartTC3 -->
+      <class name="scripts.flipkartTC2">
+        <methods>
+          <include name="close"/>
+          <include name="addProduct"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- scripts.flipkartTC2 -->
+      <class name="scripts.flipkartTC1">
+        <methods>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- scripts.flipkartTC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
